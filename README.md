@@ -9,7 +9,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
     OpenCV for real-time webcam feed
     Hunspell for spelling correction and word suggestion
 # Modules and Workflow
-1. Training Data Acquisition
+**1. Training Data Acquisition**
      Captured hand gesture samples using webcam
      Defined Region of Interest (ROI) for consistent image framing
      Preprocessing included:
