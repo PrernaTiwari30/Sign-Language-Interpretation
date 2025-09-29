@@ -10,7 +10,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
     OpenCV for real-time webcam feed
     Hunspell for spelling correction and word suggestion
 # Modules and Workflow
-1. Training Data Acquisition
+**1. Training Data Acquisition**
 
      Captured hand gesture samples using webcam
      
@@ -24,7 +24,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
       
      Organized clean datasets with multiple samples per class
 
-2. Testing Data Acquisition
+**2. Testing Data Acquisition**
 
      Similar process to training data
      
@@ -32,7 +32,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
      
      Ensured class balance for robust evaluation
    
-3. Model Development & Evaluation
+**3. Model Development & Evaluation**
    Dataset Preprocessing
    
      Converted all images to grayscale for simplicity
@@ -86,7 +86,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
 
      Model saved and reloaded for evaluation
 
-5. GUI Deployment Framework
+**5. GUI Deployment Framework**
 
      GUI with Tkinter for user interaction
 
