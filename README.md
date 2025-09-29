@@ -10,16 +10,24 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
     Hunspell for spelling correction and word suggestion
 # Modules and Workflow
 **1. Training Data Acquisition**
+
      Captured hand gesture samples using webcam
+     
      Defined Region of Interest (ROI) for consistent image framing
+     
      Preprocessing included:
-      Resizing to 128x128 pixels
-      Normalization
+     
+        Resizing to 128x128 pixels
+        Normalization
+      
      Organized clean datasets with multiple samples per class
 
-2. Testing Data Acquisition
+**2. Testing Data Acquisition**
+
      Similar process to training data
+     
      Captured labeled samples per class
+     
      Ensured class balance for robust evaluation
    
 3. Model Development & Evaluation
