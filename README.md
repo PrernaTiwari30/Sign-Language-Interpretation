@@ -3,26 +3,28 @@ This project is a real-time Sign Language Recognition System designed to interpr
 
 # Project Overview
 
-This system interprets hand gestures corresponding to sign language (ASL) characters. It uses:
+This system interprets hand gestures corresponding to sign language (ASL) characters. It uses
+
     Convolutional Neural Networks (CNNs) for classification
     Tkinter GUI for interactive user interface
     OpenCV for real-time webcam feed
     Hunspell for spelling correction and word suggestion
 # Modules and Workflow
-**1. Training Data Acquisition**
+1. Training Data Acquisition
 
      Captured hand gesture samples using webcam
      
      Defined Region of Interest (ROI) for consistent image framing
      
-     Preprocessing included:
-     
+     Preprocessing included
+   
         Resizing to 128x128 pixels
+   
         Normalization
       
      Organized clean datasets with multiple samples per class
 
-**2. Testing Data Acquisition**
+2. Testing Data Acquisition
 
      Similar process to training data
      
