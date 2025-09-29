@@ -10,20 +10,20 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
     Hunspell for spelling correction and word suggestion
 # Modules and Workflow
 1. Training Data Acquisition
-     # Captured hand gesture samples using webcam
-     # Defined Region of Interest (ROI) for consistent image framing
-     # Preprocessing included:
-   Resizing to 128x128 pixels
-   Normalization
-     # Organized clean datasets with multiple samples per class
+     Captured hand gesture samples using webcam
+     Defined Region of Interest (ROI) for consistent image framing
+     Preprocessing included:
+      Resizing to 128x128 pixels
+      Normalization
+     Organized clean datasets with multiple samples per class
 
 2. Testing Data Acquisition
-     # Similar process to training data
-     # Captured labeled samples per class
-     # Ensured class balance for robust evaluation
+     Similar process to training data
+     Captured labeled samples per class
+     Ensured class balance for robust evaluation
    
 3. Model Development & Evaluation
-     # Dataset Preprocessing
+   Dataset Preprocessing
    
      Converted all images to grayscale for simplicity
 
@@ -33,7 +33,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
 
      Resized all images to 128x128 pixels
 
-     # CNN Architecture
+   CNN Architecture
 
      Input Layer: 128x128 grayscale images
 
@@ -59,7 +59,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
 
       Softmax activation for multi-class classification
 
-     # Training
+   Training
 
      Loss Function: categorical_crossentropy
 
