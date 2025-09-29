@@ -48,12 +48,11 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
 
      Input Layer: 128x128 grayscale images
    
-
      Convolutional Layers:
 
-      Conv2D with 32 filters, 3x3 kernel, ReLU activation
+        Conv2D with 32 filters, 3x3 kernel, ReLU activation
 
-      Another Conv2D layer for deeper feature learning
+        Another Conv2D layer for deeper feature learning
 
      Pooling Layer: MaxPooling to reduce spatial dimensions
 
