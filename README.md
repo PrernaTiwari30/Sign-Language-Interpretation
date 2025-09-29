@@ -32,10 +32,12 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
      Data Augmentation to improve generalization
 
      Resized all images to 128x128 pixels
+   
 
    CNN Architecture
 
      Input Layer: 128x128 grayscale images
+   
 
      Convolutional Layers:
 
@@ -46,18 +48,21 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
      Pooling Layer: MaxPooling to reduce spatial dimensions
 
      Flatten Layer: Converts feature maps to 1D vector
+   
 
      Dense Layers:
 
       Multiple fully connected layers with ReLU
 
       Dropout applied to prevent overfitting
+   
 
      Output Layer:
 
       27 units (for 26 letters + background class)
 
       Softmax activation for multi-class classification
+   
 
    Training
 
@@ -71,7 +76,7 @@ This system interprets hand gestures corresponding to sign language (ASL) charac
 
      Model saved and reloaded for evaluation
 
-4. GUI Deployment Framework
+5. GUI Deployment Framework
 
      GUI with Tkinter for user interaction
 
